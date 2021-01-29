@@ -1,0 +1,2 @@
+$ winpty docker run -it -p 3000:3000 -v /app/node_modules -v "/$(PWD)":/usr/app -e CHOKIDAR_USEPOLLING=true 3c6e27744850
+docker exec -it 8befa0532258  npm run test
